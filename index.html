@@ -241,23 +241,24 @@ transition: opacity 0.5s ease;
   margin-bottom: 15px;
 }
 
-.skills-list {
-  list-style: none;
-  padding-left: 0;
+.soft-skills-container {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-bottom: 15px;
+  justify-content: center;
+  padding: 10px;
 }
 
-.skills-list li {
-  background: #f4e7da;
-  padding: 8px 14px;
+.soft-skill {
+  background-color: #f0e0d6;
+  padding: 10px 20px;
   border-radius: 20px;
-  font-weight: 600;
-  font-size: 16px;
-  color: #5c4033;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  font-size: 1em;
+  color: #4b2e1f;
+  text-align: center;
+  flex: 1 1 140px; /* allows flexible resizing */
+  max-width: 45%;
+  box-sizing: border-box;
 }
 
 body {
@@ -375,7 +376,6 @@ html {
       </div>
     </div>
 
-    <!-- Column 2 -->
     <div style="flex: 1 1 400px;">
       <div style="margin-bottom: 20px;">
         <strong>JavaScript (Beginner)</strong>
@@ -407,17 +407,16 @@ html {
     </div>
   </div>
 
-  <!-- Soft Skills -->
   <h3 style="color: #8B4513; margin-top: 50px;">Soft Skills</h3>
-  <ul class="skills-list" style="justify-content: center;">
-    <li>Time Management</li>
-    <li>Adaptability</li>
-    <li>Teamwork</li>
-    <li>Collaboration</li>
-    <li>Problem Solving</li>
-    <li>Communication</li>
-    <li>Leadership</li>
-  </ul>
+<div class="soft-skills-container">
+  <div class="soft-skill">Time Management</div>
+  <div class="soft-skill">Adaptability</div>
+  <div class="soft-skill">Teamwork</div>
+  <div class="soft-skill">Collaboration</div>
+  <div class="soft-skill">Problem Solving</div>
+  <div class="soft-skill">Communication</div>
+  <div class="soft-skill">Leadership</div>
+</div>
 </section>
 
 <section class="about-section" id="Certifications">
