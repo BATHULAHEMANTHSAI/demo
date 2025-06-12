@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .header {
+      background-color: #cc6600;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 60px;
+    }
+
+    .container {
+      max-width: 1000px;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #8b4513;
+      border-left: 5px solid #8b4513;
+      padding-left: 15px;
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    .project {
+      background-color: #f4e7da;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 25px;
+      transition: transform 0.3s;
+    }
+
+    .project:hover {
+      transform: scale(1.02);
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: #5c4033;
+    }
+
+    .project p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .project a {
+      color: #8b4513;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+    .back-button {
+      position: absolute;
+      top: 10px;      
+      left: 20px;     
+      background-color: #8b4513;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .back-button:hover {
+      background-color: #5c3317;
+    }
+  </style>
+</head>
+<body>
+  <button class="back-button" onclick="window.location.href='index.html'">
+  &#8592;
+</button>
+  <div class="header">PROJECTS</div>
+  <div class="container">
+    <h2>Internship & Academic Projects</h2>
+
+    <div class="project">
+      <h3>🔄 Currency Converter Web App</h3>
+      <p>
+        Developed during a short-term internship as part of my college curriculum, this web app allows users to convert between global currencies using live exchange rates. Built using HTML, CSS, and JavaScript with API integration.
+      </p>
+      <a href=https://github.com/BATHULAHEMANTHSAI/Currency-Converter/blob/ab5b7bf396b491458c7869e2d0f77d9b589f4406/currency_converter_report.pdf target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+      <h3>🚗 Sports Car Price Analysis & Modelling</h3>
+      <p>
+        Completed during a long-term academic internship, this project involved statistical data analysis of sports car prices. Applied Decision Tree and Random Forest models to predict prices, and visualized insights using Python.
+      </p>
+      <a href=https://github.com/BATHULAHEMANTHSAI/Sports-Price-Car-Analysis-and-Modelling/blob/4b842318d3cccef51ce2ca79a542bcdaf7f21d31/Sports%20car%20price%20analysis%20and%20modelling%20report.pdf target="_blank">View Project</a>
+    </div>
+
+    <h2>Personal Projects</h2>
+
+    <div class="project">
+      <h3>💼 Personal Portfolio Website</h3>
+      <p>
+        Designed and developed a modern portfolio website to showcase my technical skills, internship projects, and resume. Built using HTML, CSS, and JavaScript with a clean, responsive layout.
+      </p>
+      <a href="#">Visit Portfolio</a>
+    </div>
+  </div>
+
+</body>
+</html>

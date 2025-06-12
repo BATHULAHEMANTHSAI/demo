@@ -1,0 +1,136 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Education Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff5e6;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: #cc6600;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      overflow: hidden;
+      max-height: 100px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      max-height: 300px;
+    }
+
+    .card-icon {
+      font-size: 30px;
+      margin-right: 20px;
+      color: #1a3e72;
+    }
+
+    .card-text h3 {
+      margin: 0;
+      color: #1a3e72;
+    }
+
+    .card-text p {
+      margin: 5px 0 0 0;
+      color: #555;
+    }
+
+    .extra-details {
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover .extra-details {
+      max-height: 200px;
+      opacity: 1;
+      margin-top: 10px;
+    }
+        .back-button {
+      position: absolute;
+      top: 10px;      
+      left: 20px;     
+      background-color: #8b4513;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .back-button:hover {
+      background-color: #5c3317;
+    }
+  </style>
+</head>
+<body>
+  <button class="back-button" onclick="window.location.href='index.html'">
+  &#8592;
+</button>
+  <div class="header">🎓 EDUCATION</div>
+
+  <div class="card">
+    <div class="card-icon">🎓</div>
+    <div class="card-text">
+      <h3>Parvathaneni Brahmayya Siddhartha College</h3>
+      <p>BSc MSCA – 68%</p>      
+      <div class="extra-details">
+        <p>Year: 2022-2025</p>
+        <p>I have completed my B.Sc MSCA(Mathematics, Statistics, Computer Applications) in Parvathaneni Brahmayya Siddhartha College of Arts and science during the period 2022-2025.</p>
+        <p><a href=https://www.pbsiddhartha.ac.in target="_blank">College Website</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">🏫</div>
+    <div class="card-text">
+      <h3>Sri Sarada Junior College</h3>
+      <p>MPC – 72.6%</p>
+      <div class="extra-details">
+        <p>Year: 2020-2022</p>
+        <p>I have completed my Intermediate MPC (Mathematics, Physics, Chemistry) in Sri Sarada Junior College during the period 2020-2022.</p>
+        <p><a href=https://www.saradaedu.com/ target="_blank">College Website</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">🏫</div>
+    <div class="card-text">
+      <h3>Ravindra Bharathi Public School</h3>
+      <p>SSC – 98.6%</p>
+      <div class="extra-details">
+        <p>Year: 2020-2022</p>
+        <p>I have completed my SSC in Ravindra Bharathi Public School during the period 2019-2020.</p>
+        <p><a href=https://rbschools.in/ target="_blank">School Website</a></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
